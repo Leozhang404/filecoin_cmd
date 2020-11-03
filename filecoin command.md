@@ -5,6 +5,10 @@
 - 转账 
 
    lotus send --from wallet_address to_address [FIL_count] 
+   
+- 提现（从miner balance提现到owner address）
+
+   lotus-miner actor withdraw 1
 
 - 签名及验证
 
@@ -15,3 +19,6 @@
 - 扇区历史状态变化
 
    louts-miner sectors status --log SECTOR_ID
+   
+   
+
